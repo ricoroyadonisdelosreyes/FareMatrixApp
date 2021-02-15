@@ -1,0 +1,121 @@
+﻿
+.header {
+    color: cyan;
+    height: 75px;
+    color: #17a2b8;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px lightblue;
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h2, h3 
+{
+text-align:center;
+}
+
+a 
+{
+    text-decoration: none;
+    color: red;
+    margin-left: 10px;
+}
+.container {
+    background-color: #01243B;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.title 
+{
+    width: 200px;
+    color: lightcyan;
+    font-size: 35px;
+    padding: 10px;
+    float: left;
+}
+.title-add 
+{
+    padding: 10px;
+    color: cyan;
+    font-size: 14px;
+}
+
+.content {
+    height: 500px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.nav-a 
+{
+    text-decoration: none;
+    color: cyan;
+    margin-left: 10px;
+}
+
+.nav 
+{
+    font-weight:900;
+    height: 25px;
+    font-size: 18px;
+    background-color: #000000;
+    padding: 10px;
+}	
+
+
+@media (min-width: 768px) 
+{
+  html {
+    font-size: 14px;
+  }
+}
+
+.main {
+    height:450px; 
+    width: 1000px;
+    float: right;
+    margin-right: 100px;
+    background-color: aliceblue;
+}
+
+body 
+{
+    background-color: lightgray;
+    font-family: Arial,Times New Roman;
+}
+
+.footer 
+{
+    font-size: 80%;
+    background-color: #000000;
+    color: lightgray;
+    text-align: right;
+    clear: both;
+    padding: 10px;
+}
+.content-form 
+{
+    margin-right: 10px;
+    color: #01243B;
+    height: 500px;
+    padding: 10px;
+}
+form {
+    margin-right: 100px;
+
+    padding: 16px;
+    max-width: 825px;
+    margin-left: 15%;
+    background-color: cadetblue;
+}
+input[type=text] {
+    width: 95%;
+    font-size: 14px;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: thin;
+    background-color: aliceblue;
+}
