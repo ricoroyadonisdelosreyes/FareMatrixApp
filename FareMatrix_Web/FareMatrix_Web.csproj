@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Identity\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\FareMatrix_Dom\FareMatrix_Dom.csproj" />
     <ProjectReference Include="..\FareMatrix_Repo\FareMatrix_Repo.csproj" />
   </ItemGroup>

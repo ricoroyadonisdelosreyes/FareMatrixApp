@@ -13,10 +13,8 @@ namespace FareMatrix_Dom
         public string LastName { get; set; }
         [Required]
         public string MiddleName { get; set; }
-        [Required]
+        
         public string ContactNum { get; set; }
-        [Required]
-        public string Email { get; set; }
-       
+        
     }
 }
