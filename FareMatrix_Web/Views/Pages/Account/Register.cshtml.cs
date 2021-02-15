@@ -91,7 +91,7 @@ namespace FareMatrix_Web.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new FareMatrixAccountUsers { UserName = Input.Email, Email = Input.Email };
+                var user = new FareMatrixAccountUsers { UserName = Input.Email, Email = Input.Email,LastName = Input.LastName, FirstName= Input.FirstName, MiddleName = Input.MiddleName, ContactNum = Input.ContactNum};
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
