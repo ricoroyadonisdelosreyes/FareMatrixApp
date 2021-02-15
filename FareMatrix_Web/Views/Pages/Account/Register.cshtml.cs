@@ -58,7 +58,7 @@ namespace FareMatrix_Web.Areas.Identity.Pages.Account
             [PersonalData]
             [Display(Name = "Middle Name")]
             public string MiddleName { get; set; }
-            [Required]
+            
             [PersonalData]
             [Display(Name = "Contact Number")]
             public string ContactNum { get; set; }
